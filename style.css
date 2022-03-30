@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: bisque;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    background-color: beige;
+    
+}
+
+header h1{
+    padding: 40px 2%;
+    text-align: center;
+}
+
+main{
+    padding: 20px 2%;    
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border: 4px solid red;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.circle .display{
+    width: 200px;
+    height: 50px;
+    border: 2px solid red;
+    margin: 80px auto;
+}
+
+.circle .display p{
+    font-size: 3em;
+    text-align: center;
+}
+
+.circle button{
+    width: 4em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.circle .start{
+    background-color: green;
+    font-size: 1em;
+    border: none;
+    color: white;
+    margin-left: 45px;
+    
+}
+.circle .pause{
+    background-color: gray;
+    font-size: 1em;
+    border: none;
+    color: white;
+    
+}
+.circle .stop{
+    background-color: red;
+    font-size: 1em;
+    border: none;
+    color: white;
+}
